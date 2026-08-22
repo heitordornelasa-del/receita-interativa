@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+<title>Receita Interativa</title>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>Pão de Queijo Mineiro Tradicional</h1>
+
+    <p>
+        Uma receita tradicional de Minas Gerais:
+        crocante por fora e macia por dentro.
+    </p>
+
+
+   <img
+    src="https://cloudfront-us-east-1.images.arcpublishing.com/estadao/4KY3G2SXOBJPJDNFACJREWJE7M.jpg"
+    width="406"
+    height="270"
+>
+
+
+<section>
+    <button popovertarget="segredo">
+        Ver Segredo do Chef
+    </button>
+
+    <div id="segredo" popover>
+        <h2>O segredo da receita</h2>
+
+        <p>
+            Evite adicionar os ovos enquanto a massa ainda estiver muito quente.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Ingredientes</h2>
+
+    <ul>
+        <li>500 g de polvilho azedo</li>
+        <li>1 copo de leite</li>
+        <li>1/2 copo de óleo</li>
+        <li>2 ovos</li>
+        <li>300 g de queijo Minas curado ralado</li>
+        <li>Sal a gosto</li>
+    </ul>
+
+    <label for="acompanhamento">
+        Escolha um acompanhamento:
+    </label>
+
+    <input
+        id="acompanhamento"
+        list="bebidas"
+        placeholder="Digite sua preferência"
+    >
+
+    <datalist id="bebidas">
+        <option value="Café">
+        <option value="Guaraná">
+        <option value="Doce de leite">
+    </datalist>
+</section>
+
+<section>
+    <h2>Modo de Preparo</h2>
+
+    <ol>
+        <li>
+            <input type="checkbox">
+            Ferva o leite com o óleo e o sal.
+        </li>
+
+        <li>
+            <input type="checkbox">
+            Escalde o polvilho e misture bem.
+        </li>
+
+        <li>
+            <input type="checkbox">
+            Espere a mistura esfriar.
+        </li>
+
+        <li>
+            <input type="checkbox">
+            Adicione os ovos e misture.
+        </li>
+
+        <li>
+            <input type="checkbox">
+            Acrescente o queijo.
+        </li>
+
+        <li>
+            <input type="checkbox">
+            Faça as bolinhas e leve ao forno.
+        </li>
+    </ol>
+</section>
+
+<section>
+    <h2>Minhas Anotações</h2>
+
+    <div
+        contenteditable="true"
+        style="border: 1px dashed #999; padding: 10px;"
+    >
+        Clique aqui e escreva suas observações sobre a receita.
+    </div>
+</section>
+
+</header>
+
+</body>
+
+</html>
